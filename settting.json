@@ -1,0 +1,122 @@
+{ 
+    "editor.tabSize": 2,
+    "editor.lineHeight": 24,
+    "editor.renderLineHighlight": "none",
+    "editor.renderWhitespace": "none",
+    "editor.fontFamily": "Consolas",
+    "editor.fontSize": 15,
+    "editor.cursorBlinking": "smooth",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.wordWrapColumn": 400,
+    "editor.wordWrap": "off",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": false
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImport": true
+    },
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "javascript.suggestionActions.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Dracula Soft",
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#ff0000"
+    },
+    "cssrem.rootFontSize":100,
+    "breadcrumbs.enabled": true,
+    "open-in-browser.default": "chrome",
+    "search.exclude": {
+        "**/.git": true,
+        "**/.gitignore": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/.vscode": false,
+        "**/yarn.lock": true,
+        "**/tmp": true,
+        "**/dist": true,
+        "**/build": true
+    },
+    "files.associations": {
+        "*.wxss": "css",
+        "*.cjson": "jsonc",
+        "*.wxs": "javascript",
+        "*.ts": "typescript",
+        "*.vue": "vue",
+        "*.dart": "dart"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html",
+        "javascript": "javascriptreact",
+        "xml": {
+            "attr_quotes": "single"
+        }
+    },
+    "emmet.includeLanguages": {
+        "jsx-sublime-babel-tags": "javascriptreact",
+        "wxml": "html"
+    },
+    "eslint.enable": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.options": {
+        "configFile": "/home/kylin/.eslintrc/.eslintrc.js",
+        "plugins": ["html"]
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        "typescript",
+        "typescriptreact"
+    ],
+    "typescript.validate.enable": false,
+    "git.autofetch": true,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": false
+    },
+    "python.linting.enabled": false,
+    "apicloud.port": "23450",
+    "apicloud.subdirectories": "/apicloudproject",
+    "debug.openDebug": "openOnDebugBreak",
+    "[dart]": {
+        "editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": true,
+		"editor.suggestSelection": "recentlyUsedByPrefix",
+		"editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+		"files.insertFinalNewline": true
+    }
+}
